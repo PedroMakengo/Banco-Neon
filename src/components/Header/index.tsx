@@ -1,7 +1,6 @@
 import { Container, ContentHeader, Content, Banner } from "./style";
 
 import logo from "../../assets/images/logo-neon-color.svg";
-import group141 from "../../assets/images/Group141.svg";
 
 export function Header() {
   return (
