@@ -70,15 +70,28 @@ export const Banner = styled.div`
 
       .item {
         width: 50%;
+        height: auto;
         display: flex;
-        align-items: center;
 
         div {
+          background-color: #11b9dc;
+          width: 40px;
+          height: 40px;
+          border-radius: 50%;
+          border: 0;
+
+          display: flex;
+          align-items: center;
+          justify-content: center;
           margin-right: 1rem;
+          img {
+            width: 20px;
+            height: 20px;
+          }
         }
 
         & + .item {
-          margin-left: 2rem;
+          margin-left: 0.5rem;
         }
       }
       span {

@@ -4,6 +4,8 @@ import logo from "../../assets/images/logo-neon-color.svg";
 import Cartao from "../../assets/images/Group 6.svg";
 import Conta from "../../assets/images/Group 11.svg";
 import Money from "../../assets/images/Group 5.svg";
+import { Nav } from "./Nav";
+import { ItemOptions } from "./ItemOptions";
 
 export function Header() {
   return (
@@ -11,13 +13,7 @@ export function Header() {
       <ContentHeader>
         <Content>
           <img src={logo} alt="Logo" />
-          <nav>
-            <a href="#produto">Produtos</a>
-            <a href="#conta">Conta Digital PJ</a>
-            <a href="#quemsomos">Quem Somos</a>
-            <a href="#ajuda">Ajuda</a>
-            <a href="#abra">Abra a sua conta digital</a>
-          </nav>
+          <Nav />
         </Content>
       </ContentHeader>
       <Banner>
@@ -27,24 +23,9 @@ export function Header() {
           <button>Abra sua contan digital</button>
 
           <div className="icons">
-            <div className="item">
-              <div>
-                <img src={Cartao} alt="Cartão" />
-              </div>
-              <span>Cartão sem anuidade</span>
-            </div>
-            <div className="item">
-              <div>
-                <img src={Conta} alt="Conta" />
-              </div>
-              <span>Conta digital 100% grátis</span>
-            </div>
-            <div className="item">
-              <div>
-                <img src={Money} alt="Money" />
-              </div>
-              <span>Seu dinheiro rendendo mais</span>
-            </div>
+            <ItemOptions title="" src={Cartao} />
+            <ItemOptions title="" src={Conta} />
+            <ItemOptions title="" src={Money} />
           </div>
         </div>
 
