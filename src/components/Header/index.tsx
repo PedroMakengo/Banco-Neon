@@ -1,6 +1,9 @@
 import { Container, ContentHeader, Content, Banner } from "./style";
 
 import logo from "../../assets/images/logo-neon-color.svg";
+import Cartao from "../../assets/images/Group 6.svg";
+import Conta from "../../assets/images/Group 11.svg";
+import Money from "../../assets/images/Group 5.svg";
 
 export function Header() {
   return (
@@ -23,17 +26,23 @@ export function Header() {
           <h1>A conta digital certa pra cuidar bem do seu dinheiro</h1>
           <button>Abra sua contan digital</button>
 
-          <div>
-            <div>
-              <img src="" alt="" />
+          <div className="icons">
+            <div className="item">
+              <div>
+                <img src={Cartao} alt="Cartão" />
+              </div>
               <span>Cartão sem anuidade</span>
             </div>
-            <div>
-              <img src="" alt="" />
+            <div className="item">
+              <div>
+                <img src={Conta} alt="Conta" />
+              </div>
               <span>Conta digital 100% grátis</span>
             </div>
-            <div>
-              <img src="" alt="" />
+            <div className="item">
+              <div>
+                <img src={Money} alt="Money" />
+              </div>
               <span>Seu dinheiro rendendo mais</span>
             </div>
           </div>

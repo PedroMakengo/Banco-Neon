@@ -59,7 +59,33 @@ export const Banner = styled.div`
   color: #fff;
 
   .account {
-    width: 50%;
+    width: 55%;
+
+    .icons {
+      margin-top: 2rem;
+
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      .item {
+        width: 50%;
+        display: flex;
+        align-items: center;
+
+        div {
+          margin-right: 1rem;
+        }
+
+        & + .item {
+          margin-left: 2rem;
+        }
+      }
+      span {
+        font-size: 1rem;
+        font-weight: 100;
+      }
+    }
 
     > span {
       display: block;
