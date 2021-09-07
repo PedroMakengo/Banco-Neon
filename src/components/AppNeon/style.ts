@@ -27,8 +27,11 @@ export const ContentApp = styled.div`
 
     h1 {
       font-size: 2rem;
+      font-weight: bold;
       width: 400px;
       margin-bottom: 3rem;
+
+      color: #322f3d;
     }
 
     .itens {

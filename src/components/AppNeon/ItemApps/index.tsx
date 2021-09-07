@@ -1,4 +1,4 @@
-import { FaArrowRight } from "react-icons/fa";
+import ArrowRight from "../../../assets/images/Vector 12.svg";
 
 interface ItemAppsProps {
   src: string;
@@ -13,7 +13,7 @@ export function ItemApps({ src, title, describe }: ItemAppsProps) {
         <h2>{title}</h2>
         <span>{describe}</span>
       </div>
-      <FaArrowRight />
+      <img src={ArrowRight} alt="" />
     </div>
   );
 }
