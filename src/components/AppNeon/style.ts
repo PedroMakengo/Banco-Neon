@@ -29,7 +29,7 @@ export const ContentApp = styled.div`
       font-size: 2rem;
       font-weight: bold;
       width: 400px;
-      margin-bottom: 3rem;
+      margin-bottom: 2rem;
 
       color: #322f3d;
     }
@@ -67,6 +67,15 @@ export const ContentApp = styled.div`
           color: #ccc;
           margin-left: 2rem;
         }
+      }
+
+      a {
+        display: flex;
+        margin-top: 1rem;
+
+        color: #0475cf;
+        text-decoration: none;
+        font-weight: 400;
       }
     }
   }

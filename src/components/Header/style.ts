@@ -9,6 +9,7 @@ export const Container = styled.header`
   background-repeat: no-repeat;
 
   background-size: 150%;
+  padding-bottom: 5rem;
 `;
 
 export const ContentHeader = styled.div`
