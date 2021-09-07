@@ -1,3 +1,4 @@
+import { AccountMoneny } from "./components/AccountMoney";
 import { AppNeon } from "./components/AppNeon";
 import { Comments } from "./components/Comments";
 import { Header } from "./components/Header";
@@ -11,6 +12,7 @@ function App() {
       <AppNeon />
       <NeonPejota />
       <Comments />
+      <AccountMoneny />
       <GlobalStyle />
     </>
   );
