@@ -2,8 +2,8 @@ import { SectionApp } from "./style";
 
 export function AppNeon() {
   return (
-    <div>
+    <SectionApp>
       <h1>AppNeon</h1>
-    </div>
+    </SectionApp>
   );
 }
