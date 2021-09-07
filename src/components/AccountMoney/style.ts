@@ -14,8 +14,16 @@ export const Content = styled.div`
   .account {
     width: 50%;
 
+    h1 {
+      font-size: 2rem;
+      color: #ccc;
+    }
+
     .account-title {
-      width: 350px;
+      width: 500px;
+      font-size: 1.3rem;
+      font-weight: bold;
+      color: #000;
     }
   }
 
