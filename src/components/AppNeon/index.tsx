@@ -1,9 +1,14 @@
-import { SectionApp } from "./style";
+import { SectionApp, ContentApp } from "./style";
 
 export function AppNeon() {
   return (
     <SectionApp>
-      <h1>AppNeon</h1>
+      <ContentApp>
+        <div></div>
+        <div>
+          <h1>Resolva sua vida direto pelo app Neon!</h1>
+        </div>
+      </ContentApp>
     </SectionApp>
   );
 }
