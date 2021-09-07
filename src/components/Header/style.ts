@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import bgHero from "../../assets/images/bg-hero.svg";
-import bgVetor from "../../assets/images/Group141.svg";
+import Visa from "../../assets/images/Visa.png";
 
 export const Container = styled.header`
   width: 100%;
@@ -8,8 +8,7 @@ export const Container = styled.header`
   background: url(${bgHero});
   background-repeat: no-repeat;
 
-  background-size: 130%;
-  background-color: var(--blue-light);
+  background-size: 150%;
 `;
 
 export const ContentHeader = styled.div`
@@ -34,6 +33,7 @@ export const Content = styled.div`
     align-items: center;
 
     a {
+      font-weight: 100;
       text-decoration: none;
       color: #fff;
       font-weight: 100;
@@ -54,12 +54,13 @@ export const Content = styled.div`
 export const Banner = styled.div`
   max-width: 1100px;
   margin: 0 auto;
-  height: 80%;
+  height: 90%;
 
   display: flex;
   align-items: center;
 
   color: #fff;
+  padding-bottom: 1rem;
 
   .account {
     width: 50%;
@@ -133,24 +134,32 @@ export const Banner = styled.div`
     }
   }
 
-  .digital {
-    background-image: url(${bgVetor});
-    background-size: 90%;
-    background-position: center;
-
-    background-repeat: no-repeat;
+  .fundo {
+    text-align: right;
     width: 70%;
-    height: 55vh;
+    height: calc(80vh - 10rem);
 
     h1 {
       font-size: 3rem;
       color: #b2e7f8;
       margin: 0 auto;
-      text-align: center;
+      text-align: right;
     }
+    .digital {
+      background-image: url(${Visa});
+      background-size: 100%;
+      background-position: center;
 
-    img {
-      width: 40%;
+      background-repeat: no-repeat;
+      width: 100%;
+      height: 55vh;
+
+      background-position-x: 1rem;
+      background-position-y: 2rem;
+
+      img {
+        width: 40%;
+      }
     }
   }
 `;

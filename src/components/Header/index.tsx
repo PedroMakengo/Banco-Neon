@@ -1,12 +1,11 @@
 import { Container, ContentHeader, Content, Banner } from "./style";
-import { Nav } from "./Nav";
-import { ItemOptions } from "./ItemOptions";
 
 import logo from "../../assets/images/logo-neon-color.svg";
 import Cartao from "../../assets/images/Group 6.svg";
 import Conta from "../../assets/images/Group 11.svg";
 import Money from "../../assets/images/Group 5.svg";
-import Cartoes from "../../assets/images/Group 141.png";
+import { Nav } from "./Nav";
+import { ItemOptions } from "./ItemOptions";
 
 export function Header() {
   return (
@@ -30,11 +29,9 @@ export function Header() {
           </div>
         </div>
 
-        <div className="">
+        <div className="fundo">
           <h1>Banco 100% digital</h1>
-          <div className="digital">
-            <img src={Cartoes} alt="Cartões" />
-          </div>
+          <div className="digital"></div>
         </div>
       </Banner>
     </Container>
