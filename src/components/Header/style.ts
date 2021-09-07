@@ -1,11 +1,14 @@
 import styled from "styled-components";
+import bgHero from "../../assets/images/bg-hero.svg";
+import bgVetor from "../../assets/images/Group141.svg";
 
 export const Container = styled.header`
   width: 100%;
-  height: 90vh;
-  background: url("../../assets/images/bg-hero.svg");
+  height: 95vh;
+  background: url(${bgHero});
+  background-repeat: no-repeat;
 
-  background-size: 100%;
+  background-size: 130%;
   background-color: var(--blue-light);
 `;
 
@@ -14,7 +17,7 @@ export const ContentHeader = styled.div`
 `;
 
 export const Content = styled.div`
-  max-width: 1000px;
+  max-width: 1100px;
   height: 7rem;
   margin: 0 auto;
 
@@ -49,7 +52,7 @@ export const Content = styled.div`
 `;
 
 export const Banner = styled.div`
-  max-width: 1000px;
+  max-width: 1100px;
   margin: 0 auto;
   height: 80%;
 
@@ -59,7 +62,7 @@ export const Banner = styled.div`
   color: #fff;
 
   .account {
-    width: 55%;
+    width: 50%;
 
     .icons {
       margin-top: 2rem;
@@ -69,13 +72,13 @@ export const Banner = styled.div`
       justify-content: space-between;
 
       .item {
-        width: 50%;
+        width: 33%;
         height: auto;
         display: flex;
 
         div {
           background-color: #11b9dc;
-          width: 40px;
+          width: 36%;
           height: 40px;
           border-radius: 50%;
           border: 0;
@@ -83,7 +86,7 @@ export const Banner = styled.div`
           display: flex;
           align-items: center;
           justify-content: center;
-          margin-right: 1rem;
+
           img {
             width: 20px;
             height: 20px;
@@ -91,12 +94,13 @@ export const Banner = styled.div`
         }
 
         & + .item {
-          margin-left: 0.5rem;
         }
       }
-      span {
+      p {
+        width: 200px;
         font-size: 1rem;
         font-weight: 100;
+        margin-left: 1rem;
       }
     }
 
@@ -130,11 +134,19 @@ export const Banner = styled.div`
   }
 
   .digital {
-    background-image: url("../../assets/images/Group141.svg");
+    background-image: url(${bgVetor});
+    background-size: 90%;
     background-position: center;
+
+    background-repeat: no-repeat;
+    width: 70%;
+    height: 55vh;
+
     h1 {
       font-size: 3rem;
       color: #b2e7f8;
+      margin: 0 auto;
+      text-align: center;
     }
 
     img {

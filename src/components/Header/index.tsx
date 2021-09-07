@@ -1,11 +1,12 @@
 import { Container, ContentHeader, Content, Banner } from "./style";
+import { Nav } from "./Nav";
+import { ItemOptions } from "./ItemOptions";
 
 import logo from "../../assets/images/logo-neon-color.svg";
 import Cartao from "../../assets/images/Group 6.svg";
 import Conta from "../../assets/images/Group 11.svg";
 import Money from "../../assets/images/Group 5.svg";
-import { Nav } from "./Nav";
-import { ItemOptions } from "./ItemOptions";
+import Cartoes from "../../assets/images/Group 141.png";
 
 export function Header() {
   return (
@@ -23,14 +24,17 @@ export function Header() {
           <button>Abra sua contan digital</button>
 
           <div className="icons">
-            <ItemOptions title="" src={Cartao} />
-            <ItemOptions title="" src={Conta} />
-            <ItemOptions title="" src={Money} />
+            <ItemOptions title="Cartão sem anuidade" src={Cartao} />
+            <ItemOptions title="Conta digital 100% grátis" src={Conta} />
+            <ItemOptions title="Seu dinheiro rendendo mais" src={Money} />
           </div>
         </div>
 
-        <div className="digital">
+        <div className="">
           <h1>Banco 100% digital</h1>
+          <div className="digital">
+            <img src={Cartoes} alt="Cartões" />
+          </div>
         </div>
       </Banner>
     </Container>

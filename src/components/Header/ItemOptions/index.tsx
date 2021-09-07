@@ -8,7 +8,7 @@ export function ItemOptions({ title, src }: ItemOptionsProps) {
       <div>
         <img src={src} alt="Cartão" />
       </div>
-      <span>{title}</span>
+      <p>{title}</p>
     </div>
   );
 }
