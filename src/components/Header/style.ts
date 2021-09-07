@@ -36,7 +36,7 @@ export const Content = styled.div`
       font-weight: 100;
       text-decoration: none;
       color: #fff;
-      font-weight: 100;
+      font-weight: 200;
 
       & + a {
         margin-left: 2rem;
@@ -100,7 +100,7 @@ export const Banner = styled.div`
       p {
         width: 200px;
         font-size: 1rem;
-        font-weight: 100;
+        font-weight: 200;
         margin-left: 1rem;
       }
     }
@@ -110,6 +110,7 @@ export const Banner = styled.div`
       margin-bottom: 1.5rem;
 
       font-size: 1.1rem;
+      font-weight: 300;
 
       color: #b2e7f8;
     }
@@ -127,10 +128,17 @@ export const Banner = styled.div`
 
       border-radius: 50px;
       border: 0;
-
       color: #855b35;
 
       margin-bottom: 1.5rem;
+      font-weight: 300 !important;
+
+      transition: filter 0.2s;
+
+      &:hover {
+        filter: brightness(1.2);
+        color: #000;
+      }
     }
   }
 
@@ -145,6 +153,7 @@ export const Banner = styled.div`
       margin: 0 auto;
       text-align: right;
     }
+
     .digital {
       background-image: url(${Visa});
       background-size: 100%;
