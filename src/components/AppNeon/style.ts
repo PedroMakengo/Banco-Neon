@@ -20,4 +20,51 @@ export const ContentApp = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
+
+  .app {
+    margin-top: 15rem;
+    width: 63%;
+
+    h1 {
+      font-size: 2rem;
+      width: 400px;
+      margin-bottom: 3rem;
+    }
+
+    .itens {
+      .item {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        padding-bottom: 1.5rem;
+        border-bottom: 1px solid #ccc;
+
+        & + .item {
+          margin-top: 2rem;
+        }
+
+        img {
+          margin-right: 1rem;
+        }
+
+        h2 {
+          color: #575463;
+          font-size: 1.5rem;
+          font-weight: 600;
+        }
+
+        span {
+          font-weight: 300;
+          color: #ccc;
+          font-size: 0.9rem;
+        }
+
+        svg {
+          color: #ccc;
+          margin-left: 2rem;
+        }
+      }
+    }
+  }
 `;
