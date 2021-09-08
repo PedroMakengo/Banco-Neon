@@ -25,6 +25,7 @@ export function NeonPejota() {
                   <span>Apple Store</span>
                 </div>
               </button>
+
               <button>
                 <FaApple />
                 <div>

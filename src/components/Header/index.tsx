@@ -6,6 +6,7 @@ import logo from "../../assets/images/logo-neon-color.svg";
 import Cartao from "../../assets/images/Group 6.svg";
 import Conta from "../../assets/images/Group 11.svg";
 import Money from "../../assets/images/Group 5.svg";
+import { Button } from "../Button";
 
 export function Header() {
   return (
@@ -20,7 +21,7 @@ export function Header() {
         <div className="account">
           <span>Abra sua conta, é só baixar o app!</span>
           <h1>A conta digital certa pra cuidar bem do seu dinheiro</h1>
-          <button>Abra sua contan digital</button>
+          <Button title="Abra sua contan digital" type="normal-button" />
 
           <div className="icons">
             <ItemOptions title="Cartão sem anuidade" src={Cartao} />

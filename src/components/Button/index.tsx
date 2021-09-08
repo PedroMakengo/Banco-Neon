@@ -1,11 +1,15 @@
+import { ReactChildren } from "react";
 import { ButtonApp, ButtonDownloader } from "./style";
 
 interface ButtonProps {
   title?: string;
   type: string;
+  children?: ReactChildren;
 }
-export function Button({ title, type }: ButtonProps) {
-  return type === "btn-downloader"
-    ? console.log("Olá Mundo")
-    : console.log("Novamente");
+export function Button({ title, type, children }: ButtonProps) {
+  return type === "btn-downloader" ? (
+    <ButtonDownloader>{children}</ButtonDownloader>
+  ) : (
+    <ButtonApp>{title}</ButtonApp>
+  );
 }
