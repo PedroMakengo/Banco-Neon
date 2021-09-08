@@ -18,4 +18,32 @@ export const ButtonApp = styled.button`
   }
 `;
 
-export const ButtonDownloader = styled.button``;
+export const ButtonDownloader = styled.button`
+  padding: 0.6rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 15px;
+  border: 0;
+
+  background-color: #33303e;
+  color: #fff;
+
+  svg {
+    font-size: 2rem;
+    margin-right: 1rem;
+  }
+  & + button {
+    margin-top: 1rem;
+  }
+
+  div {
+    display: flex;
+    flex-direction: column;
+
+    span {
+      font-weight: 400;
+    }
+  }
+`;

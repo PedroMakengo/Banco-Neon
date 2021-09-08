@@ -33,7 +33,7 @@ export function AccountMoneny() {
           </div>
           <Button type="normal-button" />
         </div>
-        <img src={NeonPhone} alt="" />
+        <img src={NeonPhone} alt="Neon Phone" />
       </Content>
     </Container>
   );
