@@ -25,9 +25,28 @@ export const Content = styled.div`
       font-weight: bold;
       color: #000;
     }
+
+    .items {
+      margin-top: 2rem;
+      .item {
+        display: flex;
+        h3 {
+          color: #ccc;
+        }
+
+        & + .item {
+          margin-top: 1.5rem;
+        }
+
+        img {
+          width: 50px;
+          margin-right: 1.2rem;
+        }
+      }
+    }
   }
 
-  img {
+  > img {
     width: 50%;
   }
 `;

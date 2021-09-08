@@ -1,6 +1,8 @@
 import { Container, Content } from "./style";
+import { ItemAccount } from "./ItemAccount";
 
 import NeonPhone from "../../assets/images/Group 138-1.png";
+import CartaoVisa from "../../assets/images/Group 91.svg";
 
 export function AccountMoneny() {
   return (
@@ -12,27 +14,21 @@ export function AccountMoneny() {
             <h2>Domine o seu dinheiro com uma conta 100% digital</h2>
           </div>
           <div className="items">
-            <div className="item">
-              <img src="" alt="" />
-              <div>
-                <h3>Cartão de visita</h3>
-                <p>Tenha felicidades e benefícios para o seu dia a dia.</p>
-              </div>
-            </div>
-            <div className="item">
-              <img src="" alt="" />
-              <div>
-                <h3>Cartão de visita</h3>
-                <p>Tenha felicidades e benefícios para o seu dia a dia.</p>
-              </div>
-            </div>
-            <div className="item">
-              <img src="" alt="" />
-              <div>
-                <h3>Cartão de visita</h3>
-                <p>Tenha felicidades e benefícios para o seu dia a dia.</p>
-              </div>
-            </div>
+            <ItemAccount
+              src={CartaoVisa}
+              title="Carta visa internacional"
+              describe="Teste"
+            />
+            <ItemAccount
+              src={CartaoVisa}
+              title="Zero mensalidade e anuidade"
+              describe="Teste"
+            />
+            <ItemAccount
+              src={CartaoVisa}
+              title="Investimento que rende mais que a poupança"
+              describe="Teste"
+            />
           </div>
         </div>
         <img src={NeonPhone} alt="" />
