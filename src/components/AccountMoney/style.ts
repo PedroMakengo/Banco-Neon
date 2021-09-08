@@ -28,6 +28,7 @@ export const Content = styled.div`
 
     .items {
       margin-top: 2rem;
+      margin-bottom: 2rem;
       .item {
         display: flex;
 

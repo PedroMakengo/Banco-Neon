@@ -3,6 +3,7 @@ import { ItemAccount } from "./ItemAccount";
 
 import NeonPhone from "../../assets/images/Group 138-1.png";
 import CartaoVisa from "../../assets/images/Group 91.svg";
+import { Button } from "../Button";
 
 export function AccountMoneny() {
   return (
@@ -30,6 +31,7 @@ export function AccountMoneny() {
               describe="Invista o seu dinheiro de maneira mais rentável."
             />
           </div>
+          <Button type="normal-button" />
         </div>
         <img src={NeonPhone} alt="" />
       </Content>

@@ -1,8 +1,10 @@
 import { Container, Content } from "./style";
 
 import { FaApple } from "react-icons/fa";
+import { FaGooglePlay } from "react-icons/fa";
 
 import BaixarImg from "../../assets/images/Group 9.svg";
+import { Button } from "../Button";
 
 export function NeonPejota() {
   return (
@@ -18,21 +20,21 @@ export function NeonPejota() {
               vida muito mais simples
             </p>
             <div className="buttons">
-              <button>
+              <Button type="btn-downloader">
                 <FaApple />
                 <div>
                   <small>Download via</small>
                   <span>Apple Store</span>
                 </div>
-              </button>
+              </Button>
 
-              <button>
-                <FaApple />
+              <Button type="btn-downloader">
+                <FaGooglePlay />
                 <div>
                   <small>Download via</small>
                   <span>Google Play</span>
                 </div>
-              </button>
+              </Button>
             </div>
           </div>
         </div>
