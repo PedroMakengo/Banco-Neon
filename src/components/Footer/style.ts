@@ -55,6 +55,7 @@ export const Content = styled.div`
     color: #fff;
 
     .footer-item {
+      height: 240px;
       & + .footer-item {
         margin-left: 4rem;
       }
