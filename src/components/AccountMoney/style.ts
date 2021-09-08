@@ -30,12 +30,19 @@ export const Content = styled.div`
       margin-top: 2rem;
       .item {
         display: flex;
-        h3 {
-          color: #ccc;
-        }
 
         & + .item {
           margin-top: 1.5rem;
+        }
+
+        h3 {
+          color: #322f3d;
+          font-size: 1rem;
+        }
+        p {
+          font-weight: 300;
+          font-size: 1rem;
+          color: #ccc;
         }
 
         img {

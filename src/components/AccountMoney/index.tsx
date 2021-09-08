@@ -17,17 +17,17 @@ export function AccountMoneny() {
             <ItemAccount
               src={CartaoVisa}
               title="Carta visa internacional"
-              describe="Teste"
+              describe="Tenho facilidade e benefícios para o seu dia a dia."
             />
             <ItemAccount
               src={CartaoVisa}
               title="Zero mensalidade e anuidade"
-              describe="Teste"
+              describe="Não gaste grana pagando taxas desnecessárias."
             />
             <ItemAccount
               src={CartaoVisa}
               title="Investimento que rende mais que a poupança"
-              describe="Teste"
+              describe="Invista o seu dinheiro de maneira mais rentável."
             />
           </div>
         </div>
